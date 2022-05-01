@@ -1,0 +1,75 @@
+.search {
+  width: 100%;
+  border: 1px solid #c9c7c7;
+  display: block;
+  outline: none;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.home {
+  border: 1px solid #c9c7c7;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.roow {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.form_input_text {
+  font-size: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+
+.tasks .task {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  border: 1px solid #c9c7c7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tasks .task .content .text {
+  width: 70%;
+  border: none;
+  display: block;
+  outline: none;
+  padding: 3px;
+  border-radius: 4px;
+  margin-top: 6px;
+  font-size: 20px;
+
+}
+
+.task .actions {
+  display: flex;
+}
+
+.task .actions button {
+  border: none;
+}
+
+.task .actions .edit {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: aliceblue;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 6px;
+}
+
+.task .actions .delete {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 6px;
+}
